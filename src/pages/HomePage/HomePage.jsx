@@ -1,13 +1,16 @@
 import React from 'react'
 
 const HomePage = () => {
-    return (<> 
-       <div>HomePage edited by main</div>
-        <div>HomePage edited by jahida</div>
-     </>
-     
+    return (
+        <>
+            <div className="bg-slate-700 p-8">
+                this is a box
+            </div>
+        </>
 
     )
+
+
 }
 
 export default HomePage
