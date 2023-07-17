@@ -6,7 +6,11 @@ const ProductDetails = () => {
     const productId = UseQuery().get('id')
     console.log(productId)
     return (
-        <div>ProductDetails</div>
+        <>
+         <div>ProductDetails</div>
+         <div>ProductDetails after edit</div>
+        </>
+       
     )
 }
 
